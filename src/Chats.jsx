@@ -57,7 +57,7 @@ const Chats = () => {
   // useEffect for initializing the socket connection and event listeners
   useEffect(() => {
     // Connect to the socket server
-    socket = io("http://localhost:3000");
+    socket = io("https://chatty-u9bf.onrender.com");
 
     // Event listener for connection
     socket.on("connect", () => {
